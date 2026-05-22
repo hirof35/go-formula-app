@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <div id="app">
+        <h2>f(x) = ax² + bx + c</h2>
+        <div class="input-group">
+            <label>係数 a: <input type="number" id="paramA" value="2"></label>
+            <label>係数 b: <input type="number" id="paramB" value="3"></label>
+            <label>定数 c: <input type="number" id="paramC" value="-5"></label>
+            <label>変数 x: <input type="number" id="paramX" value="4"></label>
+        </div>
+        <button id="calcBtn">構造解析・計算実行</button>
+        <div id="resultOutput" class="result">結果がここに表示されます</div>
+    </div>
+    <script src="./src/main.js" type="module"></script>
+</body>
+</html>
